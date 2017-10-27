@@ -1,0 +1,23 @@
+Il y a 3 forme : - Interpréteur et commandes dans un éxecutable séparés
+                 - Commandes intégrés dans un seul éxecutable
+                 - Extensible par librairie
+                 
+Compilation à l'aide d'un Makefile
+
+Le prompt doit pouvoir : - gérer la rediréction des flux : | ; < ; > ; << ; >>
+                         - gérer les opérateurs logiques : || ; &&
+                         - gérer le détachement du terminal : &
+                    
+La possibilité de le faire à distance via "connect"
+
+
+Le codage des commandes usuelles : - mkdir/cd/pwd
+                                   - ls
+                                   - cat/more/less
+                                   - mv/cp
+                                   - rm
+                                   - du
+                                   - chmod/chown/chgrp
+                                   - echo
+                                   - ps/top
+                                   - su
